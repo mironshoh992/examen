@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    gap: 50px;
+}
+
+header {
+    padding: 20px;
+    background: #014E56;
+
+}
+
+a {
+    color: white;
+}
+
+header img {
+    width: 160px;
+
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    width: 153px;
+    height: 48px;
+    background: #014E56;
+    border-radius: 20px;
+    border: solid #FFFFFF;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.w {
+    background-color: #014E56;
+    padding: 70px;
+
+}
+
+.w h1 {
+    top: 70px;
+}
+
+.ota {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.p {
+    color: white;
+    font-size: 20px;
+    width: 730px;
+}
+
+.e {
+    background-color: #004047;
+}
+
+.card {
+    background-color: #012F34;
+    width: 350px;
+    text-align: center;
+    padding: 50px;
+}
+.das{
+    display: none
+}
+
+.ota2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #012F34;
+    padding: 70px;
+}
+
+.img {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.r {
+    background-color: #F67E7E;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn3 {
+    width: 153px;
+    height: 48px;
+    background: #F67E7E;
+    border-radius: 20px;
+    border: solid #000000;
+}
+
+.btn3:hover {
+    color: white;
+}
+
+.u {
+    padding: 78px 0;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+.l {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media (max-width:556px) {
+   
+
+   nav{
+    display: none;
+    
+   }
+    .ota{
+        flex-direction: column;
+    }
+    .ota p{
+        width: 90%;
+    }
+    .das{
+        display: block;
+    }
+}
